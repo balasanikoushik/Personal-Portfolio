@@ -16,7 +16,6 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background: #242582;
 
 }
 
@@ -25,7 +24,6 @@ body {
 }
 
 header {
-    background: #242582;
     position: sticky;
     top: 0;
 }
@@ -134,9 +132,12 @@ button:hover {
     text-align: center;
 }
 
+.handles{
+    padding-left: 40px;
+}
 .social {
     display: flex;
-    padding-left: 20;
+    padding-left: 40px;
     flex-wrap: wrap;
     gap: 2.4rem;
     margin-top: 1.7rem;
@@ -165,29 +166,6 @@ button:hover {
     font-size: 1.5rem;
 }
 
-.images::before {
-    content: "";
-    position: absolute;
-    width: 80%;
-    height: calc(100% - 130px);
-    left: 40%;
-    bottom: 0;
-    transform: translateX(-50%);
-    border-radius: 6px;
-    z-index: -1;
-}
-
-.images::before {
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-}
-
-.images {
-    width: 80%;
-    margin-left: auto;
-    position: relative;
-    z-index: -1;
-}
 
 @media screen and (max-width: 1024px) {
     .container {

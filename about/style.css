@@ -17,7 +17,6 @@
 body {
 
     font-family: 'Outfit', sans-serif;
-    background: #242582;
 
 }
 
@@ -27,7 +26,7 @@ body {
 }
 
 header {
-    background: #242582;
+    background: #fff;
     position: sticky;
     top: 0;
 }
@@ -133,29 +132,6 @@ li a:hover {
     font-size: 1.5rem;
 }
 
-.images::before {
-    content: "";
-    position: absolute;
-    width: 80%;
-    height: calc(100% - 130px);
-    left: 40%;
-    bottom: 0;
-    transform: translateX(-50%);
-    border-radius: 6px;
-    z-index: -1;
-}
-
-.images::before {
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-}
-
-.images {
-    width: 80%;
-    margin-left: auto;
-    position: relative;
-    z-index: -1;
-}
 
 @media screen and (max-width: 1024px) {
     .container {
@@ -288,7 +264,7 @@ li a:hover {
   }
   .accordion button[aria-expanded=true] + .accordion-content {
     opacity: 1;
-    max-height: 25em;
+    max-height: 60em;
     transition: all 200ms linear;
     will-change: opacity, max-height;
   }
@@ -310,7 +286,7 @@ li a:hover {
 table {
     border-collapse: collapse;
     width: 70%;
-    background: rgb(108, 108, 219);
+    background: #fff;
     margin: 20px auto;
     font-family: Arial, sans-serif;
 }
